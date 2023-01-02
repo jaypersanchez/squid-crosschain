@@ -1,0 +1,12 @@
+syntax = "proto3";
+package squidcrosschain.squidcrosschain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "squid-crosschain/x/squidcrosschain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
